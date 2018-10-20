@@ -6,13 +6,9 @@
 # return [0, 1].
 
 def two_sum(nums, target)
-    answer = []
-    nums.each_with_index do |value, index1|
-        (index1+1...nums.size).each do |index2|
-            if nums[index2] == target - value
-                answer = [index1, index2]
-            end
+    nums.each_with_index do |value, index|
+        while nums[index+1..-1].index(target - value)
+            return [index, index + 1 + nums[index + 1..-1].index(target - value)]
         end
     end
-    answer
 end
