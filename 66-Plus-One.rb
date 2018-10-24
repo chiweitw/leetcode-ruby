@@ -15,6 +15,20 @@
 # Output: [4,3,2,2]
 # Explanation: The array represents the integer 4321.
 
+# 48ms
+# def plus_one(digits)
+#     (digits.join("").to_i + 1).to_s.split("").map { |i| i.to_i }
+# end
+
+# 44ms 100%
 def plus_one(digits)
-    (digits.join("").to_i + 1).to_s.split("").map { |i| i.to_i }
+  digits[-1] += 1
+  digits = digits.reverse
+  (0...digits.size).each do |i|
+    if digits[i] == 10
+      digits[i] = 0
+      digits[i+1] ? digits[i+1] += 1 : digits += [1]
+    end
+  end
+  digits.reverse
 end
