@@ -7,7 +7,7 @@
 # Explanation: [4,-1,2,1] has the largest sum = 6.
 # Follow up:
 # If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
-
+# Runtime: 48 ms, faster than 100.00% of Ruby online submissions for Maximum Subarray.
 def max_sub_array(nums)
     max_end = 0
     max_current = nums.max
