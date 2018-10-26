@@ -8,7 +8,7 @@
 
 # Input: "Hello World"
 # Output: 5
-
+# Runtime: 44 ms, faster than 100.00% of Ruby online submissions for Length of Last Word.
 def length_of_last_word(s)
     !s.split(" ").empty? ? s.split(" ")[-1].length : 0
 end
