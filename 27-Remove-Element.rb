@@ -7,7 +7,7 @@
 # @param {Integer[]} nums
 # @param {Integer} val
 # @return {Integer}
-
+# Runtime: 48 ms, faster than 22.45% of Ruby online submissions for Remove Element.
 def remove_element(nums, val)
     current_index = 0
     (0...nums.size).each do |i|
