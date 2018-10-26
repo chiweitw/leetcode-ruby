@@ -17,7 +17,7 @@
 # Follow up:
 
 # Coud you solve it without converting the integer to a string?
-
+# Runtime: 168 ms, faster than 53.61% of Ruby online submissions for Palindrome Number.
 def is_palindrome(x)
     x.to_s.reverse == x.to_s ? true : false
     # x.negative? ? false : x.digits.reverse == x.digits ? true: false
