@@ -12,7 +12,7 @@
 # Given an integer n where 1 ≤ n ≤ 30, generate the nth term of the count-and-say sequence.
 
 # Note: Each term of the sequence of integers will be represented as a string.
-
+# Runtime: 60 ms, faster than 30.77% of Ruby online submissions for Count and Say.
 def groups(str)
     array = str.split("")
     i = 0
