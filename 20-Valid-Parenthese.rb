@@ -3,6 +3,7 @@
 # Open brackets must be closed by the same type of brackets.
 # Open brackets must be closed in the correct order.
 # Note that an empty string is also considered valid.
+# Runtime: 48 ms, faster than 71.33% of Ruby online submissions for Valid Parentheses.
 
 COUNTERPART = {
     '(' => ")",
