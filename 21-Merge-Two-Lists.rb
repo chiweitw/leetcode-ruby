@@ -17,7 +17,7 @@
 # @param {ListNode} l1
 # @param {ListNode} l2
 # @return {ListNode}
-
+# Runtime: 56 ms, faster than 19.63% of Ruby online submissions for Merge Two Sorted Lists.
 def turn_to_array(l)
     output = []
     until l.nil?
