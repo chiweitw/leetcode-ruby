@@ -17,6 +17,7 @@
 # @param {Integer[]} nums2
 # @param {Integer} n
 # @return {Void} Do not return anything, modify nums1 in-place instead.
+# Runtime: 48 ms, faster than 44.64% of Ruby online submissions for Merge Sorted Array.
 def merge(nums1, m, nums2, n)
     (m...m+n).each do |i|
         nums1[i] = nums2[i-m]
