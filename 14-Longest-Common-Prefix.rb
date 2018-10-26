@@ -12,6 +12,7 @@
 # Output: ""
 # Explanation: There is no common prefix among the input strings.
 
+# Runtime: 56 ms, faster than 44.33% of Ruby online submissions for Longest Common Prefix.
 def longest_common_prefix(strs)
   if strs.empty? || strs[0] == ""
     ""
