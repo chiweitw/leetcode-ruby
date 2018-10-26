@@ -35,7 +35,6 @@
 # Input: "MCMXCIV"
 # Output: 1994
 # Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
-
 # Runtime: 104 ms, faster than 81.52% of Ruby online submissions for Roman to Integer.
 
 ROMAN = {
