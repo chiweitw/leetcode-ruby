@@ -18,7 +18,7 @@
 
 # Input: [1,3,5,6], 0
 # Output: 0
-
+# Runtime: 48 ms, faster than 53.97% of Ruby online submissions for Search Insert Position.
 def search_insert(nums, target)
     nums << target
     nums.sort.index(target)
