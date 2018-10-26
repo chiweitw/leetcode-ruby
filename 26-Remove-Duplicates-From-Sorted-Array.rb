@@ -4,6 +4,7 @@
 
 # @param {Integer[]} nums
 # @return {Integer}
+# Runtime: 60 ms, faster than 82.53% of Ruby online submissions for Remove Duplicates from Sorted Array.
 
 def remove_duplicates(nums)
     nums.empty? ? target_index = 0 : target_index = 1
